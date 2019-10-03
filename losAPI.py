@@ -23,8 +23,8 @@ for user_number in range (1, 47888):
 				print (sub_content.text)
 		else:
 			print ("User has no posts")
-			# ~ print ("---", str (user.text))
-			open ("Users_without_posts", "a").write (user.text + "   " + str (user_number) + "\n")
+			with open ("Users_without_posts", "a") as file:
+				file.write (user.text + "   " + str (user_number) + "\n")
 	else:
 		print ("User does not exist")
 		

@@ -1,9 +1,9 @@
 # LinuxOS-API
 ## In development
-This is not really API only few scripts for download data from https://linuxos.sk/ and save it to user_themes_comments.txt
+This is not really API only few scripts for download data from https://linuxos.sk/
 
 `losAPI-user_themes_comments.py`
-Download all commented themes by user
+Download all commented themes by user and save it to user_themes_comments.txt
 
 `losAPI-user_all_comments.py`
 Download all comments by user (you need to run losAPI-user_themes_comments.py first)
